@@ -5,4 +5,4 @@ cp --no-preserve=mode,ownership /opt/app-root/ssh/ssh-privatekey /opt/app-root/s
 chmod 0600 /opt/app-root/src/.ssh/id_rsa
 ls -la /opt/app-root/src/
 ls -la /opt/app-root/src/.ssh/
-
+pwd
