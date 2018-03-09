@@ -6,4 +6,3 @@ chmod 0600 /opt/app-root/src/.ssh/id_rsa
 mkdir /opt/app-root/public
 #cp --no-preserve=mode,ownership -r /opt/app-root/public /opt/app-root/src/public
 mkdir -m 0777 /opt/app-root/src/public
-ls -la /opt/app-root/src/
