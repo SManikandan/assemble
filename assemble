@@ -6,4 +6,3 @@ chmod 0600 /opt/app-root/src/.ssh/id_rsa
 ls -la /opt/app-root/src/
 ls -la /opt/app-root/src/.ssh/  
 mkdir /opt/app-root/src/public
-chown root:root /opt/app-root/src/public
