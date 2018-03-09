@@ -3,6 +3,6 @@ echo "It reaches here Yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 mkdir -p /opt/app-root/src/.ssh
 cp --no-preserve=mode,ownership /opt/app-root/ssh/ssh-privatekey /opt/app-root/src/.ssh/id_rsa
 chmod 0600 /opt/app-root/src/.ssh/id_rsa
+mkdir /opt/app-root/public
+cp --no-preserve=mode,ownership /opt/app-root/public /opt/app-root/src/public
 ls -la /opt/app-root/src/
-ls -la /opt/app-root/src/.ssh/  
-install -d -o root -g root /opt/app-root/src/public
