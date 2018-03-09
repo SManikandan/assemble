@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "It reaches here Yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+mkdir -p /opt/app-root/src/.ssh
+cp --no-preserve=mode,ownership /opt/app-root/ssh/ssh-privatekey /opt/app-root/src/.ssh/id_rsa
+chmod 0600 /opt/app-root/src/.ssh/id_rsa
+#ls -la /opt/app-root/src/
+ls -la /opt/app-root/src/.ssh/
